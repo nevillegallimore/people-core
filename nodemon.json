@@ -1,0 +1,12 @@
+{
+    "exec": "npm run start",
+    "ext": "json,ts",
+    "ignore": [
+        "node_modules/**",
+        "./src/**/*.spec.ts"
+    ],
+    "watch": [
+        "./src/**/*.json",
+        "./src/**/*.ts"
+    ]
+}
