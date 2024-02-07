@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "noEmit": true,
+        "noImplicitAny": true,
+        "paths": {
+            "@self/*": [
+                "./src/*"
+            ]
+        },
+        "resolveJsonModule": true,
+        "strict": true,
+        "target": "es2020"
+    },
+    "exclude": [
+        "node_modules/**",
+        "src/**/*.spec.ts"
+    ],
+    "include": [
+        "src/**/*.json",
+        "src/**/*.ts"
+    ],
+    "ts-node": {
+        "require": [
+            "tsconfig-paths"
+        ]
+    }
+}
