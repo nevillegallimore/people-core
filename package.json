@@ -7,6 +7,7 @@
     ],
     "license": "MIT",
     "version": "0.0.1",
+    "private": false,
     "main": "./dist/people-core.js",
     "type": "module",
     "module": "./dist/esm/people-core.js",
@@ -37,6 +38,8 @@
         "lint": "pnpm run lint:ts && pnpm run lint:eslint && pnpm run lint:prettier",
         "lint:ts": "tsc --project ./tsconfig.json",
         "lint:eslint": "eslint --config ./.eslintrc.json ./src/**/*.ts",
-        "lint:prettier": "prettier --config ./.prettierrc \"./src/**/*.(json|ts)\" --log-level warn --check"
+        "lint:prettier": "prettier --config ./.prettierrc \"./src/**/*.(json|ts)\" --log-level warn --check",
+        "release": "pnpm run lint && pnpm run build && pnpm run test && changeset publish",
+        "test": "echo \"Tests are not yet setup...\" && exit 0"
     }
 }
