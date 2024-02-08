@@ -1,5 +1,11 @@
 # people-core
 
+## 0.0.4
+
+### Patch Changes
+
+- 6d71db6: Fixes tsup output mode to ensure library works with modern node js versions
+
 ## 0.0.3
 
 ### Patch Changes
