@@ -13,13 +13,13 @@
     "files": [
         "dist"
     ],
-    "main": "./dist/people-core.js",
+    "main": "./dist/people-core.cjs",
     "type": "module",
-    "module": "./dist/esm/people-core.js",
+    "module": "./dist/people-core.js",
     "types": "./dist/people-core.d.ts",
     "exports": {
-        "import": "./dist/esm/people-core.js",
-        "require": "./dist/people-core.js",
+        "import": "./dist/people-core.js",
+        "require": "./dist/people-core.cjs",
         "types": "./dist/people-core.d.ts"
     },
     "dependencies": {

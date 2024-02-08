@@ -8,7 +8,6 @@
         "cjs",
         "esm"
     ],
-    "legacyOutput": true,
     "name": "people",
     "outDir": "./dist"
 }
